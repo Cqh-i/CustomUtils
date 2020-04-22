@@ -41,3 +41,5 @@
 > (4)根据配置文件的key，返回对应的配置值，如果configKey不存在,或者值为空的字符串，则返回默认值defaultValue
 > 返回的数据类型：支持Integer.class，Double.class，Boolean.class，Float.class，Long.class，String.class<br>
 > ConfigUtil#public static <E> E getConfig(String configKey, E defaultValue, Class<E> clazz)
+
+3. 使用Javamail发送邮件Demo, 注意使用对应的邮箱服务器需要开启stmp服务(如QQ邮箱的pop3或者IMAP，QQ邮箱还有独立的stmp授权密码)
