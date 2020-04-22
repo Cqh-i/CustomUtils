@@ -29,15 +29,15 @@
     用法: 调用ConvertToTable#convertToTable(String filePath)即可；
 
 2. 获取配置文件的工具类
-> (1)根据配置文件的key，返回对应的配置值。
-> ConfigUtil#public static String getConfig(String configKey) 根据配置文件的key，返回对应的配置值
+> (1)根据配置文件的key，返回对应的配置值。<br>
+> ConfigUtil#public static String getConfig(String configKey) 
 
-> (2)根据配置文件的key，返回对应的配置值，如果configKey不存在,或者值为空的字符串，则返回默认值defaultValue
+> (2)根据配置文件的key，返回对应的配置值，如果configKey不存在,或者值为空的字符串，则返回默认值defaultValue<br>
 > ConfigUtil#public static String getConfig(String configKey, String defaultValue)
 
-> (3)属性文件中是否包含键configKey，包含返回true
+> (3)属性文件中是否包含键configKey，包含返回true<br>
 > ConfigUtil#public static boolean contentKey(String configKey)
 
 > (4)根据配置文件的key，返回对应的配置值，如果configKey不存在,或者值为空的字符串，则返回默认值defaultValue
-> 返回的数据类型：支持Integer.class，Double.class，Boolean.class，Float.class，Long.class，String.class
+> 返回的数据类型：支持Integer.class，Double.class，Boolean.class，Float.class，Long.class，String.class<br>
 > ConfigUtil#public static <E> E getConfig(String configKey, E defaultValue, Class<E> clazz)
