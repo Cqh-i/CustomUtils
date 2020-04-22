@@ -31,5 +31,3 @@ build/
 /mvnw
 /mvnw.cmd
 /.mvn/
-pom.xml
-src/
